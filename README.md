@@ -16,7 +16,7 @@
  
 4. Execute the following command and copy the Initial Admin password
 
-   ```docker exec -it jenkins sh -c "cat /var/jenkins_home/secrets/initialAdminPassword" ```
+ ```docker exec -it jenkins sh -c "cat /var/jenkins_home/secrets/initialAdminPassword" ```
    
 5. Launch http://localhost:8080/ in your browser.
 6. Login with the password obtained in above previous step.
